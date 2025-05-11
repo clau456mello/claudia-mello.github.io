@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
+    <meta charset="UTF-8">
+    <title>Meu Site</title>
     <style>
         body {
             font-family: Arial;
@@ -22,11 +24,15 @@
         nav a:hover {
             color: #007BFF;
         }
+        .centralizado {
+            text-align: center;
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
 
-<img src="claudia.png" width="100%" id="topo">
+<img src="claudia.png" width="100%" id="topo" alt="Imagem de capa do site">
 
 <nav>
     <a href="#qsomos">Quem Somos</a>
@@ -36,26 +42,32 @@
     <a href="#cupons">Cupons</a>
 </nav>
 
-<h1 style="text-align: center;">Bem Vindos</h1>
+<h1 class="centralizado">Bem Vindos</h1>
 
-<h2 id="qsomos" style="text-align: center;">Quem Somos</h2>
-<img src="quemsou.png" width="100%">
-<center><a href="#topo">Voltar ao Topo</a></center>
+<h2 id="qsomos" class="centralizado">Quem Somos</h2>
+<img src="quemsou.png" width="100%" alt="Quem Somos">
+<div class="centralizado"><a href="#topo">Voltar ao Topo</a></div>
 
-<h2 id="menu" style="text-align: center;">Consulte Nossos Serviços</h2>
-<img src="servi.png" width="100%">
-<center><a href="#topo">Voltar ao Topo</a></center>
+<h2 id="menu" class="centralizado">Consulte Nossos Serviços</h2>
+<img src="servi.png" width="100%" alt="Serviços">
+<div class="centralizado"><a href="#topo">Voltar ao Topo</a></div>
 
-<h2 id="contacto" style="text-align: center;">Contactos</h2>
-<img src="contato.png" width="100%">
-<center><a href="#topo">Voltar ao Topo</a></center>
+<h2 id="contacto" class="centralizado">Contactos</h2>
+<img src="contato.png" width="100%" alt="Contatos">
+<div class="centralizado"><a href="#topo">Voltar ao Topo</a></div>
 
-<h2 id="portfolio" style="text-align: center;">Portfólio</h2>
+<h2 id="portfolio" class="centralizado">Portfólio</h2>
 <iframe src="meuarquivo.pdf" width="100%" height="600px"></iframe>
-<center><a href="#topo">Voltar ao Topo</a></center>
+<div class="centralizado"><a href="#topo">Voltar ao Topo</a></div>
 
-<h2 id="cupons" style="text-align: center;">Cupons</h2>
-<a href="https://hyper-syrup-5da.notion.site/Descubra-os-Melhores-Produtos-para-Cuidar-de-Voc-e-da-Sua-Renda-1f04f472b9c8808e887ae134f72f209d?pvs=4">Ir para a Página</a>    
-<center><a href="#topo">Voltar ao Topo</a></center>
+<h2 id="cupons" class="centralizado">Cupons</h2>
+<div class="centralizado">
+  <a href="https://hyper-syrup-5da.notion.site/Descubra-os-Melhores-Produtos-para-Cuidar-de-Voc-e-da-Sua-Renda-1f04f472b9c8808e887ae134f72f209d?pvs=4" target="_blank">
+    Ir para a Página
+  </a>
+  <br><br>
+  <a href="#topo">Voltar ao Topo</a>
+</div>
+
 </body>
 </html>
